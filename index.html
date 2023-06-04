@@ -1,342 +1,76 @@
-<!doctype html>
-<html lang="ko">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>portfolio demo</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <script src="/script.js"></script>
+  <title>I-HYEON의 포트폴리오</title>
+</head>
 
-  <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-info-subtle">
-            <div class="container-fluid icon-container">
-                <a class="navbar-brand" href="#">
-                    <span class="material-symbols-outlined">
-                        radio_button_unchecked
-                    </span>
-                    seoih
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#mainpage">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#myintro">Intro</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#mypjt">Project</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <main id = "mainpage">
-        <nav class="linkicon">
-            <ul>
-                <li>
-                    <a href="https://github.com/I-HYEON">
-                        <img src="./img/github-mark.svg" alt="깃허브이미지" class="github_icon">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://spacegg.tistory.com/">
-                        <img src="./img/tistory4.png" alt="블로그이미지" class="blog_icon">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/ssafycial_9reat/">
-                        <img src="./img/icons8-instagram.svg" alt="인스타이미지" class="instagram_icon">
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-        <section class="title-container">
-            <h2>Hello,world!</h2>
-            <h3>개발자 서이현</h3>
-            <ul>
-                <li>
-                    <span>2023</span>
-                    <span>삼성 청년 소프트웨어 아카데미(SSAFY) 9기 수료</span>
-                </li>
-                <li>
-                    <span>2022</span>
-                    <span>KORAIL 인턴</span>
-                </li>
-                <li>
-                    <span>2022</span>
-                    <span>부산대학교 정치외교학과 졸업</span>
-                </li>
-                <li>
-                    <span>2020</span>
-                    <span>BFIC 단기 인턴십</span>
-                </li>
-            </ul>
-
-            <a href="#contact">
-                <button type="button" class="btn">이메일 보내기</button>
-            </a>
-
-
-        </section>
-
-        <section class="mainpage-img-container">
-
-        </section>
-
-
-    </main>
-    
-    <article id ="myintro">
-        <div class="myintro-layout-parent">
-            <section class="profile-img-container">
-                <div class="profile-img"></div>
-            </section>
-            <section class="info-text-container">
-                <h2>My Intro</h2>
-                <h3>About Me</h3>
-                <p>서이현 최고 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia consequatur corporis pariatur commodi doloremque corrupti asperiores modi totam maiores magni. Dolore reprehenderit molestiae dolor nihil, error eum minus quo aliquam?</p>
-                <ul class="contact-info-ul">
-                    <li class="row">
-                        <div class="icon-container">
-                            <span class="material-symbols-outlined">
-                                person
-                            </span>
-                        </div>
-                        <div class="colume-name">Name</div>
-                        <div class="colume-data">서이현</div>
-                    </li>
-                    <li class="row">
-                        <div class="icon-container">
-                            <span class="material-symbols-outlined">
-                                email
-                            </span>
-                        </div>
-                        <div class="colume-name">Email</div>
-                        <div class="colume-data">tjwn1408@naver.com</div>
-                    </li>
-                    <li class="row">
-                        <div class="icon-container">
-                            <span class="material-symbols-outlined">
-                                phone
-                            </span>
-                        </div>
-                        <div class="colume-name">Phone</div>
-                        <div class="colume-data">000.0000.0000</div>
-                    </li>
-                </ul>
-                <div>
-                    <h2>My Interest</h2>
-                    <ul class="myinterest">
-                        <li>
-                            <span class="material-symbols-outlined">
-                                headset_mic
-                            </span>
-                            <span>Music</span>
-                        </li>
-                        <li>
-                            <span class="material-symbols-outlined">
-                                tv
-                            </span>
-                            <span>Movie</span>
-                        </li>
-                        <li>
-                            <span class="material-symbols-outlined">
-                                book
-                            </span>
-                            <span>Book</span>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-    </article>
-
-    <article id = "skills">
-        <h2>SKILLS</h2>
-        <div class="card-container">
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                  Frontend
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">An item</li>
-                  <li class="list-group-item">A second item</li>
-                  <li class="list-group-item">A third item</li>
-                </ul>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                  Backend
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">An item</li>
-                  <li class="list-group-item">A second item</li>
-                  <li class="list-group-item">A third item</li>
-                </ul>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                  Database
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">An item</li>
-                  <li class="list-group-item">A second item</li>
-                  <li class="list-group-item">A third item</li>
-                </ul>
-            </div>
-        </div>
-        
-    </article>
-    
-    <article id="project">
-        <h2>Education & project</h2>
-        <div class="edu-project-container">
-          <div class="edu-container">
-            <h3>
-              <span class="material-symbols-outlined">
-                school
-              </span>
-              <span>Education</span>
-            </h3>
+<body>
+  <header>
+    <div class="d-flex justify-content-center">
+      <img style="width:150px; height:140px;" src="./img/logo.png" alt="">
+    </div>
+    <ul class="nav nav-pills nav-justified">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#intro">Intro</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#info">Infomation</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#edu-pro">Edu&Projects</a>
+      </li>
+    </ul>
+  </header>
   
-            <ul>
-              <li>
-                <h3>한국대학교 컴퓨터공학과</h3>
-                <div class="role">AI 융합전공</div>
-                <div class="date">
-                  <span class="material-symbols-outlined">
-                    calendar_month
-                  </span>
-                  <span class="date-data">2016.03 - 2022.02</span>
-                </div>
-              </li>
-              <li>
-                <h3>한국대학교 컴퓨터공학과</h3>
-                <div class="role">AI 융합전공</div>
-                <div class="date">
-                  <span class="material-symbols-outlined">
-                    calendar_month
-                  </span>
-                  <span class="date-data">2016.03 - 2022.02</span>
-                </div>
-              </li>
-              <li>
-                <h3>한국대학교 컴퓨터공학과</h3>
-                <div class="role">AI 융합전공</div>
-                <div class="date">
-                  <span class="material-symbols-outlined">
-                    calendar_month
-                  </span>
-                  <span class="date-data">2016.03 - 2022.02</span>
-                </div>
-              </li>
-              <li>
-                <h3>한국대학교 컴퓨터공학과</h3>
-                <div class="role">AI 융합전공</div>
-                <div class="date">
-                  <span class="material-symbols-outlined">
-                    calendar_month
-                  </span>
-                  <span class="date-data">2016.03 - 2022.02</span>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="project-container">
-            <h3>
-              <span class="material-symbols-outlined">
-                work
-              </span>
-              <span>Project</span>
-            </h3>
-  
-            <ul>
-              <li>
-                <h3>한국대학교 컴퓨터공학과</h3>
-                <div class="role">AI 융합전공</div>
-                <div class="date">
-                  <span class="material-symbols-outlined">
-                    calendar_month
-                  </span>
-                  <span class="date-data">2016.03 - 2022.02</span>
-                </div>
-              </li>
-              <li>
-                <h3>한국대학교 컴퓨터공학과</h3>
-                <div class="role">AI 융합전공</div>
-                <div class="date">
-                  <span class="material-symbols-outlined">
-                    calendar_month
-                  </span>
-                  <span class="date-data">2016.03 - 2022.02</span>
-                </div>
-              </li>
-              <li>
-                <h3>한국대학교 컴퓨터공학과</h3>
-                <div class="role">AI 융합전공</div>
-                <div class="date">
-                  <span class="material-symbols-outlined">
-                    calendar_month
-                  </span>
-                  <span class="date-data">2016.03 - 2022.02</span>
-                </div>
-              </li>
-              <li>
-                <h3>한국대학교 컴퓨터공학과</h3>
-                <div class="role">AI 융합전공</div>
-                <div class="date">
-                  <span class="material-symbols-outlined">
-                    calendar_month
-                  </span>
-                  <span class="date-data">2016.03 - 2022.02</span>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </article>
-    
-    <article id = "contact">
-        <h1>Contact Me</h1>
-        <h2>문의사항</h2>
-        <div class="contact-container">
-            <div class="contact-left-container">
-                <div><input type="text"><input type="text"></div>
-                <input type="text">
-                <input type="text">
-                <input type="text">
-            </div>
-            <div class="contact-right-container">
-                <div class="call">롸롸</div>
-                <div class="call">롸롸</div>
-                <div class="call">롸롸</div>
-            </div>
-        </div>
-    </article>
-    
-    <footer id = "footer">
-        &copy; 2023. Seo I-Hyeon. All right reserved.
-    </footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-9">
+        <main>
+          <article class="guide-line" id="intro">
+            여기는 내 소개가 들어갈 예정
+          </article>
+      
+          <article class="guide-line" id="info">
+            여기는 내 간단한 인적사항이 들어갈 예정
+          </article>
+      
+          <article class="guide-line" id="skills">
+            여기는 내 기술스택이 들어갈 예정
+          </article>
+ 
+          <article class="guide-line" id="edu-pro">
+            여기는 교육사항 및 프로젝트가 들어갈 예정
+          </article>
+        </main>
+      </div>
+      <div class="col-3">
+        <aside class="guide-line">
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link active" href="#intro">Intro</a>
+            <a class="nav-link" href="#info">Information</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#edu-pro">Edu&Projects</a>
+          </nav>
+        </aside>
+      </div>
+    </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+  
+  <footer>
+    &copy; 2023. Seo I-Hyeon. All right reserved.
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
 </html>
